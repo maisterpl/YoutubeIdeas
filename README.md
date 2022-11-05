@@ -44,3 +44,9 @@
     git rm -r .\youtube_ideas\__pycache__
     git status
     git commit -m "remove __pycache__"
+5. Add branch:
+    git checkout -b feature/updates_in_readme
+    git status - see modified files
+    git add
+    git commit -m "Update README.md"
+    git push -u origin feature/updates_in_readme
