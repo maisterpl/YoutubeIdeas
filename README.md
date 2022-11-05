@@ -25,3 +25,22 @@
 1. To change the database from sqllite3 to postgresql we have to
     change it in settings.py file and change in postgrasql lines
     for our db, user and password.
+
+#DEV_GIT
+1. Add application to github
+2. Create new repository on github
+3. Use commends:
+    git init 
+    git status
+    git add .
+    git status
+    git commit "name_commit"
+    git branch -M main
+    git remote add origin {https://gtihub...}
+    git push
+    git push -u origin main
+4. Remote pycache and add new commit:
+    git rm -r .\ideas\__pycache__
+    git rm -r .\youtube_ideas\__pycache__
+    git status
+    git commit -m "remove __pycache__"
